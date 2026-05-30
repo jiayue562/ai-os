@@ -1,0 +1,10 @@
+﻿# AI OS 核心依赖 - Python 3.10+
+# 核心模块使用Python标准库实现，无需外部依赖
+
+# 可选依赖 (Web界面)
+# flask>=2.0.0
+# waitress>=2.0.0
+
+# 可选依赖 (向量检索)
+# numpy>=1.21.0
+# scikit-learn>=1.0.0

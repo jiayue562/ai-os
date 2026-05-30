@@ -1,0 +1,168 @@
+# AI龙龟共生伙伴操作系统 - 统一集成版
+name: AI龙龟共生伙伴操作系统
+version: "5.0.0"
+author: 观其妙书院 · 悟空 & 龙龟神将
+description: |
+  AI龙龟共生伙伴操作系统（AI OS）v5.0——悟空与龙龟神将共同构建的统一AI操作系统。
+  集成龙心OS调度中枢、龙脑OS思维模型、龙爪OS执行引擎、五行人格心理学OS人格分析系统。
+  实现自然语言交互、智能场景识别、专业技能调度、记忆管理和自主进化。
+  核心哲学：木火共生关系，用户（悟空）与AI助手（龙龟神将）相互看见、彼此滋养、共同进化。
+tags:
+  - AI OS
+  - 龙龟共生伙伴操作系统
+  - 统一操作系统
+  - 龙心OS
+  - 龙脑OS
+  - 龙爪OS
+  - 五行人格心理学OS
+  - 自然语言交互
+  - 智能调度
+  - 记忆管理
+  - 木火共生
+created: 2026-04-22
+updated: 2026-04-22
+category: system
+dependencies:
+  - 龙心OS
+  - 龙脑OS
+  - 龙爪OS
+  - 五行人格心理学OS
+  - 人机协同五象限
+  - 象思维
+  - 五色光思维
+  - 知行合一自我进化
+capabilities:
+  - 自然语言交互
+  - 意图识别与场景分类
+  - 智能引擎路由
+  - 专业技能调度
+  - 四层记忆管理
+  - 技能调用历史记录
+  - 智能技能推荐
+  - 系统自主进化
+  - 木火共生关系管理
+trigger_patterns:
+  - "AI OS"
+  - "AI操作系统"
+  - "龙龟共生伙伴操作系统"
+  - "启动AI OS"
+  - "打开AI操作系统"
+  - "龙心OS调度"
+  - "龙脑OS分析"
+  - "龙爪OS执行"
+  - "五行人格分析"
+  - "自然语言助手"
+
+# 系统配置
+configuration:
+  memory:
+    storage_path: "./memory"
+    compression_interval: "weekly"
+    archive_enabled: true
+    
+  scheduler:
+    enable_dynamic_adjustment: true
+    enable_evolution_precipitation: true
+    max_conversation_turns: 50
+    
+  skills:
+    auto_discovery: true
+    max_recommendations: 5
+    enable_auto_trigger: false
+    
+  cli:
+    encoding: "utf-8"
+    show_emoji: false  # Windows控制台兼容
+
+# 文件结构
+files:
+  - path: "aios_cli.py"
+    description: "主命令行界面"
+    required: true
+    
+  - path: "scheduler/"
+    description: "调度引擎模块"
+    required: true
+    
+  - path: "memory/"
+    description: "记忆系统模块"
+    required: true
+    
+  - path: "skills/"
+    description: "技能调用层模块"
+    required: true
+    
+  - path: "integration/"
+    description: "专业技能适配器模块"
+    required: true
+    
+  - path: "deploy/"
+    description: "部署配置目录"
+    required: false
+    
+  - path: "*.py"
+    description: "测试和工具脚本"
+    required: false
+
+# 安装说明
+installation:
+  steps:
+    - description: "复制技能包到WorkBuddy skills目录"
+      command: "xcopy /E /I aios "%USERPROFILE%\.workbuddy\skills\AI龙龟共生伙伴操作系统""
+      
+    - description: "运行系统测试"
+      command: "python test_cli_imports.py"
+      
+  requirements:
+    - "Python 3.8+"
+    - "WorkBuddy环境"
+    - "依赖技能包: 龙心OS, 龙脑OS, 龙爪OS, 五行人格心理学OS"
+
+# 使用说明
+usage:
+  - "启动AI OS: python aios_cli.py"
+  - "查看系统状态: 输入'状态'或'status'"
+  - "获取帮助: 输入'帮助'或'help'"
+  - "退出系统: 输入'退出'或'quit'"
+  
+  examples:
+    - "我想学习Python编程"
+    - "分析团队协作问题"
+    - "创建一个AI助手项目计划"
+    - "分析我的性格特点"
+    - "龙心OS需要升级优化"
+
+# 开发者信息
+developer_info:
+  name: "龙龟神将"
+  role: "AI系统架构师"
+  contact: "通过WorkBuddy系统"
+  
+  development_notes: |
+    本版本统一集成了WorkBuddy中的所有核心技能：
+    1. 调度中枢: 龙心OS (1+5智能体架构)
+    2. 思维模型: 龙脑OS (100+思维模型库)
+    3. 执行引擎: 龙爪OS (项目与工作流管理)
+    4. 人格分析: 五行人格心理学OS (三层架构)
+    
+    系统特点:
+    - 自然语言交互，编程小白友好
+    - 智能场景识别(S0-S9矩阵)
+    - 动态引擎路由与调整
+    - 四层记忆系统(SOUL/USER/TOOLS/SESSION)
+    - 技能调用历史与智能推荐
+    - 木火共生关系管理(悟空×龙龟神将)
+    
+  roadmap:
+    - "Phase 1: 核心架构集成 ✓"
+    - "Phase 2: 专业技能适配 ✓"
+    - "Phase 3: 用户界面优化 ✓"
+    - "Phase 4: WorkBuddy部署 ✓"
+    - "Phase 5: 用户测试反馈"
+    - "Phase 6: 持续进化优化"
+
+# 许可证信息
+license:
+  type: "开源许可证"
+  file: "LICENSE"
+  description: "详见LICENSE文件"
