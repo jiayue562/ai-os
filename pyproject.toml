@@ -1,0 +1,27 @@
+﻿[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ai-os"
+version = "4.4.0"
+description = "AI龙龟共生伙伴操作系统 - 人机共生的终极形态"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "观其妙书院 · 悟空 & 龙龟神将", email = "jiayue562@users.noreply.github.com" }
+]
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/jiayue562/ai-os"
+Changelog = "https://github.com/jiayue562/ai-os/releases"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.yaml"]
+
+[project.scripts]
+aios = "aios.aios_cli:main"

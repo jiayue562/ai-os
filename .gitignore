@@ -36,9 +36,13 @@ desktop.ini
 *.log
 logs/
 
-# Memory data (user-specific)
-memory/data/
-*.memory.json
+# Runtime memory data (created on use, not committed)
+memory/archive/
+memory/scenes/
+memory/session/
+memory/soul/
+memory/tools/
+memory/user/
 
 # Config with secrets
 *.secret.*
