@@ -1,0 +1,29 @@
+# AI龙龟共生伙伴操作系统 (AI OS) — WorkBuddy技能配置
+name: ai-os
+version: "1.0.0"
+description: AI龙龟共生伙伴操作系统核心技能包
+author: 龙龟神将
+triggers:
+  keywords: ["AI OS", "ai-os", "AI操作系统", "龙龟共生", "共生伙伴"]
+  auto: true
+skills:
+  soul:
+    - 人设及信仰模块
+    - 心文化信仰体系Skill
+    - 心文化
+  cognitive:
+    - 龙脑 OS
+    - 思维模型库
+    - 知识学习
+    - 象思维
+    - 五色光思维
+  execution:
+    - 龙心 OS
+    - 龙爪 OS
+    - 知行合一
+    - skill-builder
+  tools:
+    - agent-memory-systems
+    - LLM Wiki 知识库管理
+    - 三向知识库同步
+    - 记忆语义检索
